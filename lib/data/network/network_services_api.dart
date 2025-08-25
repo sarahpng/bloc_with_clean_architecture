@@ -49,7 +49,7 @@ class NetworkServicesApi implements BaseApiServices {
         return data;
       case 500:
         throw FetchDataException(
-          'Error communicating with server' + response.statusCode.toString(),
+          'Error communicating with server${response.statusCode}',
         );
     }
   }

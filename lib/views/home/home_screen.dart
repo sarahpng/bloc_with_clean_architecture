@@ -1,6 +1,5 @@
 import 'package:bloc_clean_coding/config/components/internet_exception_widget.dart';
 import 'package:bloc_clean_coding/config/components/loading_widget.dart';
-import 'package:bloc_clean_coding/config/components/round_button.dart';
 import 'package:bloc_clean_coding/data/exceptions/app_exceptions.dart';
 import 'package:flutter/material.dart';
 

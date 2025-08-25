@@ -1,4 +1,3 @@
-import 'package:bloc_clean_coding/config/routes/routes_name.dart';
 import 'package:bloc_clean_coding/services/splash/splash_services.dart';
 import 'package:flutter/material.dart';
 
@@ -10,7 +9,7 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-  SplashServices _splashServices = SplashServices();
+  final SplashServices _splashServices = SplashServices();
   @override
   void initState() {
     // Future.delayed(Duration(seconds: 3), () {
